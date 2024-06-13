@@ -1,7 +1,8 @@
 # docking_workflow
 A docking workflow using Autodock (Vina) by providing a list of ligands (e.g., SMILES codes or PDB, SDF files). 
 
-# usage: python dock.py [-h] [--receptor RECEPTOR] [--maps_center MAPS_CENTER MAPS_CENTER MAPS_CENTER] [--maps_size_angstroms MAPS_SIZE_ANGSTROMS MAPS_SIZE_ANGSTROMS MAPS_SIZE_ANGSTROMS] [--AutoDocknumCores AUTODOCKNUMCORES] [--outfolder OUTFOLDER] [--numCores NUMCORES] inputdata
+# usage: 
+python dock.py [-h] [--receptor RECEPTOR] [--maps_center MAPS_CENTER MAPS_CENTER MAPS_CENTER] [--maps_size_angstroms MAPS_SIZE_ANGSTROMS MAPS_SIZE_ANGSTROMS MAPS_SIZE_ANGSTROMS] [--AutoDocknumCores AUTODOCKNUMCORES] [--outfolder OUTFOLDER] [--numCores NUMCORES] inputdata
 
 positional arguments:
   inputdata             input file with protein and ligand file
